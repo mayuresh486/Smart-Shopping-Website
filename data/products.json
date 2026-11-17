@@ -1,0 +1,52 @@
+
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Smartphone",
+            "category": "electronics",
+            "price": 20000,
+            "image": "images.jpg",
+            "description": "Powerful smartphone with a good camera and long battery life.",
+            "ram": "8GB",
+            "storage": "128GB"
+        },
+        {
+            "id": 2,
+            "name": "Laptop",
+            "category": "electronics",
+            "price": 55000,
+            "image": "laptop.webp",
+            "description": "Fast laptop suitable for students and office work.",
+            "ram": "16GB",
+            "storage": "512GB SSD"
+        },
+        {
+            "id": 3,
+            "name": "T-Shirt",
+            "category": "clothing",
+            "price": 799,
+            "image": "Tshirt.webp",
+            "description": "Comfortable cotton T-shirt for daily use.",
+            "material": "Cotton"
+        },
+        {
+            "id": 4,
+            "name": "Jeans",
+            "category": "clothing",
+            "price": 1499,
+            "image": "jeans.webp",
+            "description": "Stylish and comfortable jeans for everyday use.",
+            "material": "Denim"
+        },
+        {
+            "id": 5,
+            "name": "Running Shoes",
+            "category": "shoes",
+            "price": 2499,
+            "image": "shoes.webp",
+            "description": "Lightweight running shoes with comfortable cushioning.",
+            "type": "Sports Shoes"
+        }
+    ]
+}

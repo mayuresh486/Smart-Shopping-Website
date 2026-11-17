@@ -1,0 +1,20 @@
+
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Electronics",
+            "value": "electronics"
+        },
+        {
+            "id": 2,
+            "name": "Clothing",
+            "value": "clothing"
+        },
+        {
+            "id": 3,
+            "name": "Shoes",
+            "value": "shoes"
+        }
+    ]
+}

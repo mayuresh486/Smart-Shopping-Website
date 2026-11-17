@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Smart Shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Smart Shopping</h1>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="checkout.html">Checkout</a>
+            <a href="enquiry.html">Enquiry</a>
+        </div>
+    </nav>
+    <main>
+        <section class="form-container">
+            <h2>Checkout Form</h2>
+            <p>Enter your details to place your order.</p>
+            <form id="checkoutForm">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" placeholder="Enter 10 digit phone number">
+                <label for="product">Select Product</label>
+                <select id="product">
+                    <option value="">Select Product</option>
+                    <option value="Smartphone">Smartphone - ₹20,000</option>
+                    <option value="Laptop">Laptop - ₹55,000</option>
+                    <option value="T-Shirt">T-Shirt - ₹799</option>
+                    <option value="Jeans">Jeans - ₹1,499</option>
+                    <option value="Running Shoes">Running Shoes - ₹2,499</option>
+                    <option value="Casual Shoes">Casual Shoes - ₹1,999</option>
+                </select>
+                <label for="address">Address</label>
+                <textarea id="address" placeholder="Enter your address"></textarea>
+                <button type="submit">Place Order</button>
+                <p id="checkoutMessage"></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Smart Shopping</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

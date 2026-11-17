@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - Smart Shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Smart Shopping</h1>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="checkout.html">Checkout</a>
+            <a href="enquiry.html">Enquiry</a>
+        </div>
+    </nav>
+    <main>
+        <section class="form-container">
+            <h2>Product Enquiry</h2>
+            <p>Have a question? Send us your enquiry.</p>
+            <form id="enquiryForm">
+                <label for="enquiryName"> Name</label>
+                <input type="text"id="enquiryName"placeholder="Enter your name">
+                <label for="enquiryEmail">Email</label>
+                <input type="email" id="enquiryEmail" placeholder="Enter your email">
+                <label for="enquiryProduct">Product</label>
+                <select id="enquiryProduct">
+                    <option value="">Select Product</option>
+                    <option value="Smartphone">Smartphone</option>
+                    <option value="Laptop">Laptop</option>
+                    <option value="T-Shirt">T-Shirt</option>
+                    <option value="Jeans">Jeans</option>
+                    <option value="Running Shoes">Running Shoes</option>
+                    <option value="Casual Shoes">Casual Shoes</option>
+                </select>
+                <label for="question">Your Question</label>
+                <textarea id="question"placeholder="Write your question"></textarea>
+                <button type="submit">Submit Enquiry</button>
+                <p id="enquiryMessage"></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> © 2026 Smart Shopping</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
