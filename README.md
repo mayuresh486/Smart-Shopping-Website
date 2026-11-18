@@ -36,4 +36,4 @@ A Smart Shopping Website developed using HTML, CSS and JavaScript.
 
 ## Project
 
-Smart Shopping Website – PR4 and PR5
+Smart Shopping Website 
